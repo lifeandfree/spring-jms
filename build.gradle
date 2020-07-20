@@ -23,4 +23,8 @@ dependencies {
     implementation "javax.jms:javax.jms-api:2.0.1"
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
+//    implementation 'org.apache.kafka:kafka-clients:2.5.0'
+    implementation group: 'org.springframework.kafka', name: 'spring-kafka', version: '2.5.3.RELEASE'
+
+
 }
